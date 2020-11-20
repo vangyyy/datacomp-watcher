@@ -2,6 +2,14 @@
   "name": "datacomp-watcher",
   "version": "1.0.0",
   "description": "Watch Datacomp.sk GPU availability",
+  "homepage": "https://github.com/vangyyy/datacomp-watcher#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vangyyy/datacomp-watcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vangyyy/datacomp-watcher/issues"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
