@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ASRock RX 6800",
+    "url": "https://datacomp.sk/asrock-radeon-rx-6800-16g-16gb-gddr6-pci-e-1x-hdmi-2x-dp-usb-type-c_d410305.html",
+    "notify": ["rasto.vangor@gmail.com"]
+  },
+  {
+    "name": "ASRock RX 6800 XT",
+    "url": "https://datacomp.sk/asrock-radeon-rx-6800-xt-16g-16gb-gddr6-pci-e-1x-hdmi-2x-dp-usb-type-c_d410306.html",
+    "notify": ["rasto.vangor@gmail.com"]
+  },
+  {
+    "name": "ASUS TUF RTX 3070",
+    "url": "https://datacomp.sk/asus-tuf-rtx3070-o8g-gaming-8gb-256-bit-gddr6-2xhdmi-3xdp_d409863.html",
+    "notify": ["rasto.vangor@gmail.com"]
+  },
+  {
+    "name": "Xbox Series X",
+    "url": "https://datacomp.sk/xbox-series-x-_d407339.html",
+    "notify": ["rasto.vangor@gmail.com"]
+  }
+]
