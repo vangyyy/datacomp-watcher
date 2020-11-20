@@ -29,7 +29,7 @@ puppeteer.launch({ headless: true }).then(async (browser) => {
 async function checkAvailability(browser, name, url) {
   const page = await browser.newPage();
   await page.setViewport({ width: 1280, height: 800 });
-  await page.goto(url);
+  await page.goto(url, { timeout: 3000000 });
 
   await page.screenshot({ path: `screenshots/${name}.png`, fullPage: true });
 
