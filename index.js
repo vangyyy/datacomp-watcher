@@ -31,9 +31,16 @@ async function checkAvailability(browser, name, url) {
   await page.setViewport({ width: 1280, height: 800 });
   await page.goto(url, { timeout: 3000000 });
 
+  const unavailable = await page.evaluate(() =>
+    window.find('AKTUÁLNE NEDOSTUPNÉ')
+  );
+  const onTheWay = await page.evaluate(() =>
+    window.find('OČAKÁVANÁ DOSTUPNOSŤ')
+  );
+
   await page.screenshot({ path: `screenshots/${name}.png`, fullPage: true });
 
-  return !page.evaluate(() => window.find('AKTUÁLNE NEDOSTUPNÉ.'));
+  return !(unavailable || onTheWay);
 }
 
 async function notify(mailList, itemName, url) {
